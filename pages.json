@@ -1,0 +1,253 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/identity",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "选择身份",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "便民就医",
+				"app-plus": {
+					"animationType": "fade-in"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/knowledge/knowledge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医学科普",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"animationType": "fade-in"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息中心",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"animationType": "fade-in"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"animationType": "fade-in"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/doctor/doctor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找医生",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/doctor/dcList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医生列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/doctor/doctorInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医生主页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择医院",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/secList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医院信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/regHome",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "挂号主页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/regDoctor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "医生主页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/aboutUs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/indexDc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "便民就医医生端",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myDc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guahao/guahao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "挂号记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/wenzhen/wenzhen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问诊管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/zhuce",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/zhuceDc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/doctor/tuwen",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "填写就诊信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/doctor/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "微信支付",
+                "enablePullDownRefresh": false,
+				"backgroundColor": "#0ca70c"
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/unsolved",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "进行中订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/notevalued",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "未评价订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/chat",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/chatDoc",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

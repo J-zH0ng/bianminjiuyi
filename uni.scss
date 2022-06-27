@@ -1,0 +1,43 @@
+// 引入uView的全局SCSS主题文件
+@import '@/uni_modules/uview-ui/theme.scss';
+// 文字大小
+.fs-24 {
+	font-size: 24rpx !important;
+}
+.fs-26 {
+	font-size: 26rpx !important;
+}
+.fs-28 {
+	font-size: 28rpx !important;
+}
+.fs-32 {
+	font-size: 32rpx !important;
+}
+.fs-36 {
+	font-size: 36rpx !important;
+}
+
+// 文字颜色
+.color-theme {
+	color: #5e8860 !important;
+}
+.color-fff {
+	color: #fff !important; 
+}
+.color-9c9c9c {
+	color: #9c9c9c !important; 
+}
+.color-999999 {
+	color: #999999 !important; 
+}
+.color-7f7f7f {
+	color: #7f7f7f !important; 
+}
+
+// 背景颜色
+.bg-theme {
+	background-color: #5e8860 !important;
+}
+.bg-fff {
+	background-color: #fff !important;
+}
